@@ -177,7 +177,6 @@ const Predict = ({}) => {
 
   return (
     <Page>
-      <Navbar/>
       <Content>
         <Heading>Form</Heading>
         <p>To begin, enter parameters below</p>

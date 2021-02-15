@@ -30,7 +30,6 @@ const About = ({}) => {
 
   return (
     <Page>
-      <Navbar/>
       <Content>
         <Heading>About</Heading>
       </Content>

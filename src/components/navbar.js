@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState }  from "react"
 import styled from "styled-components"
 import { Context } from "../components/context"
 import states from "../components/states"
+import Brand from "../components/brand"
 
 const Bar = styled.div`
   position: fixed;
@@ -21,10 +22,6 @@ const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-`
-
-const Brand = styled.div`
-
 `
 
 const Links = styled.div`
@@ -53,9 +50,7 @@ const Navbar = ({}) => {
   return (
     <Bar>
       <Content>
-        <Brand>
-          Brand
-        </Brand>
+        <Brand/>
         <Links>
           <Link href="/predict" onClick={e => setUrl(e,"/form")}>Form</Link>
           <Link href="/result" onClick={e => setUrl(e,"/result")}>Result</Link>

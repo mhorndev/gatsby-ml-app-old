@@ -50,7 +50,7 @@ const Index = ({}) => {
     <Page>
       <Content>
         <Paper>
-          <h2>Medical Cost Risk Analysis</h2>
+          <h2>HELLO</h2>
           <p>The machine learning model will return an estimated risk cost based on input parameters.</p>
           <Buttons>
             <button className="btn btn-primary" onClick={e => setUrl(e,"/form")}>

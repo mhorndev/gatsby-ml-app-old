@@ -30,7 +30,6 @@ const History = ({}) => {
 
   return (
     <Page>
-      <Navbar/>
       <Content>
         <Heading>History</Heading>
       </Content>

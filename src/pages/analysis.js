@@ -30,7 +30,6 @@ const Analysis = ({}) => {
 
   return (
     <Page>
-      <Navbar/>
       <Content>
         <Heading>Analysis</Heading>
       </Content>

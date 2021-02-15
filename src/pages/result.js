@@ -49,7 +49,6 @@ const Result = ({}) => {
 
   return (
     <Page>
-      <Navbar/>
       <Content>
         {globalContext.cost ? ( 
           <>
